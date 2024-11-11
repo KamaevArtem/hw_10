@@ -3,8 +3,8 @@ public class Main {
         //Задача 1
         String firstName = "Ivan";
         String middleName = "Ivanovich";
-        String lasName = "Ivanov";
-        String fullName = "Ivanov Ivan Ivanovich";
+        String lastName = "Ivanov";
+        String fullName = lastName + ' ' +  firstName + ' ' + middleName;
         System.out.println("Ф.И.О. сотрудника - " + fullName);
         //Задача 2
         System.out.println("Данные Ф.И.О. сотрудника для заполнения отчета - " + fullName.toUpperCase());
